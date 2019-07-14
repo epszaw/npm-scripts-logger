@@ -1,0 +1,50 @@
+{
+  "name": "npm-scripts-logger",
+  "version": "1.0.0",
+  "description": "Simple logger for npm-scripts",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node ./scripts/prepublish.js",
+    "prepare": "node ./scripts/prepare.js",
+    "prepublishOnly": "node ./scripts/prepublishOnly.js",
+    "prepack": "node ./scripts/prepack.js",
+    "postpack": "node ./scripts/postpack.js",
+    "publish": "node ./scripts/publish.js",
+    "preinstall": "node ./scripts/preinstall.js",
+    "install": "node ./scripts/install.js",
+    "postinstall": "node ./scripts/postinstall.js",
+    "preuninstall": "node ./scripts/preuninstall.js",
+    "uninstall": "node ./scripts/uninstall.js",
+    "postuninstall": "node ./scripts/postuninstall.js",
+    "preversion": "node ./scripts/preversion.js",
+    "version": "node ./scripts/version.js",
+    "postversion": "node ./scripts/postversion.js",
+    "pretest": "node ./scripts/pretest.js",
+    "prestop": "node ./scripts/prestop.js",
+    "prestart": "node ./scripts/prestart.js",
+    "prerestart": "node ./scripts/prerestart.js",
+    "preshrinkwrap": "node ./scripts/preshrinkwrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamartire/npm-scripts-logger.git"
+  },
+  "keywords": ["npm", "scripts", "hooks"],
+  "author": "Konstantin Epishev <lamartire@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lamartire/npm-scripts-logger/issues"
+  },
+  "homepage": "https://github.com/lamartire/npm-scripts-logger#readme",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
